@@ -1,0 +1,185 @@
+/* Lesson 1 */
+
+:root {
+    background: white;
+}
+
+*{
+    color: black;
+}
+
+h1 {
+    background: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+.box p {
+    background: red;
+}
+
+.box div {
+    background: green;
+}
+
+.brown {
+    background: brown;
+    color: white;
+}
+
+ul > li {
+    background: red;
+}
+
+.header-button + span {
+    background: red;
+}
+
+.susid ~ p {
+    background: blue;
+    color: white;
+}
+
+.salo,
+#bread {
+    background: yellow;
+}
+
+
+/* Lesson 2 */
+
+.first-task > ul > li:first-child {
+    color: white;
+}
+
+.second-task > 
+ul:first-child >
+li:first-child {
+    color: yellow;
+}
+
+.third-task > 
+ul:last-child >
+li:first-child {
+    background: yellow;
+}
+
+.four-task > 
+ul > 
+li:last-child {
+    background: yellow;
+}
+    
+.five-task > 
+ul:last-child > 
+li:last-child {
+    color: white;
+} 
+
+.six-task > 
+div:only-child {
+    color: red;
+}
+
+.seven-task > 
+p:first-of-type {
+    background: red;
+}
+
+.eight-task >
+p:last-of-type {
+    color: red;
+}
+
+.nine-task >
+p:only-of-type {
+    background: yellow
+}
+
+
+/* Lesson 3 */
+
+.lesson-three-task-one > 
+nav >
+ul >
+li >
+a[href] {
+    color: white;
+}
+
+.lesson-three-task-two > 
+li[value] {
+    color: yellow;
+}
+
+.lesson-three-task-three > 
+li[value="3"] {
+    background: red;
+}
+
+.lesson-three-task-four > 
+button[class~="primary"] {
+    background: blue;
+}
+
+.lesson-three-task-five > 
+button[class|="secondary"] {
+    background: red;
+}
+
+.lesson-three-task-six > 
+ul > 
+li[class^="b"] {
+    color: green;
+    background: white;
+} 
+
+.lesson-three-task-seven > 
+ul > 
+li[class*="on"] {
+    color: green;
+    background: white;
+}
+
+.lesson-three-task-eight > 
+ul > 
+li > 
+span[class$="s"] {
+    background: white;
+    color: blue;    
+}
+
+.lesson-three-task-nine > 
+h2::first-letter {
+    color: red;    
+}
+
+.lesson-three-task-ten >
+p::first-line {
+    background: yellow;
+}
+
+.lesson-three-task-eleven >
+input::placeholder {
+    background: red;
+}
+
+.lesson-three-task-twelve >
+ul >
+li::before {
+    content: "➤";
+}
+
+.lesson-three-task-thirteen >
+ul >
+li::after {
+    content: "➤";
+}
+
+
